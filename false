@@ -1,0 +1,7 @@
+      invoke  active_record
+      create    db/migrate/20220524153530_create_tasks.rb
+      create    app/models/task.rb
+      invoke    test_unit
+   identical      test/models/task_test.rb
+    conflict      test/fixtures/tasks.yml
+    Overwrite /home/mfortini/code/matheusfortini7/rails-task-manager/test/fixtures/tasks.yml? (enter "h" for help) [Ynaqdhm] 
